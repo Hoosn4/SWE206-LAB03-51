@@ -48,6 +48,10 @@ public class Sorter {
             System.out.print(num + " ");
         }
     }
+    public static void sort(int array[]) {
+        insertionSort(array);
     }
+  
+ }
 
 }
