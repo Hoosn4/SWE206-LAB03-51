@@ -19,5 +19,8 @@ public class Sorter {
             array[minIndex] = temp;
         }
     }
+	public static void sort(int array[]) {
+        selectionSort(array);
+    }
 
 }
